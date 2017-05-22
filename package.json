@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  },
+  "dependencies": {
+    "is-valid-path": "^0.1.1"
+  },
+  "name": "file-saveable",
+  "version": "0.1.0",
+  "description": "Returns a safe-to-save path for file. ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "keywords": [
+    "file",
+    "saveas",
+    "saveable",
+    "file",
+    "path"
+  ],
+  "author": "Moin Uddin <me@moin.im> (https://moin.im/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moinism/file-saveable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moinism/file-saveable/issues"
+  },
+  "homepage": "https://github.com/moinism/file-saveable#readme"
+}
