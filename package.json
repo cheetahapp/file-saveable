@@ -3,11 +3,9 @@
     "chai": "^3.5.0",
     "mocha": "^3.4.1"
   },
-  "dependencies": {
-    "is-valid-path": "^0.1.1"
-  },
+  "dependencies": {},
   "name": "file-saveable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Returns a safe-to-save path for file. ",
   "main": "index.js",
   "directories": {

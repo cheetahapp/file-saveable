@@ -3,7 +3,7 @@ module.exports = function (target, opts) {
 
   var fs = require('fs'),
       path = require('path'),
-      isValid = require('is-valid-path'),
+      isValid = path.isAbsolute,
       format = ' ({n})'; // so if old name is file.png, the new name should become something like 'file (1).png'
 
   var inc = 1; // start the increment from
@@ -35,7 +35,7 @@ module.exports = function (target, opts) {
   }
 
   if(!target || !isValid(target)) {
-    throw Error('file-saveAble requires first argument to be a valid path.');
+    throw new Error('file-saveAble requires first argument to be a valid path.');
   }
 
   return getNewName(target);
